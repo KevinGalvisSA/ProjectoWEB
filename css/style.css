@@ -141,7 +141,11 @@ body{
     }
 }
 
+<<<<<<< HEAD:css/style.css
 @media screen and (max-width: 1024px) {
+=======
+@media screen and (max-width: 600px) {
+>>>>>>> 372c190 (style :lipstick: Terminacion media query añadir):style.css
     .kario{
         top: 38vh;
         left: 40vw;
