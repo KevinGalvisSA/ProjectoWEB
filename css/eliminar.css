@@ -79,7 +79,7 @@ body{
     font-size: 1vi;
     font-family: 'Myriad pro, regular';
     top: 11vi;
-    left: 31.9vi;
+    left: 36vi;
 }
 .flex-conteiner2{
     position: absolute;
@@ -687,23 +687,24 @@ display: block;
 }
 .linea1{
     position: absolute;
-    top: 17.2vi;
+    top: 17vi;
     left: 88vi;
 }
 .a{
-    background-color: black;
-    width: 2.5vi;
-    height: 0.3vi;
+    width: 5vi;
+    height: 5vi;
     margin-top: 0.5vi;
+    
 }
+
 .linea2{
     position: absolute;
-    top: 22.7vi;
+    top: 22.5vi;
     left: 88vi;
 }
 .linea3{
     position: absolute;
-    top: 28.2vi;
+    top: 28vi;
     left: 88vi;
 }
 .linea4{
@@ -713,7 +714,7 @@ display: block;
 }
 .linea5{
     position: absolute;
-    top: 39vi;
+    top: 39.2vi;
     left: 88vi;
 }
 .linea6{
@@ -721,18 +722,17 @@ display: block;
     top: 44.5vi;
     left: 88vi;
 }
-
 #cuadroSobrepuesto1 {
     display: none;
     position: fixed;
-    top: 6vi;
-    left: 20vi;
+    top: 18vi;
+    left: 35.5vi;
     z-index: 999;
     
 }
 #contenidoCuadro1 {
-    width: 60vi;
-    height: 48vi;
+    width: 30vi;
+    height: 18vi;
     background-color: #cccccc;
     border-radius: 0.3vi;
 }
@@ -745,175 +745,38 @@ cursor: pointer;
 #cuadroSobrepuesto1:target {
 display: block;
 }
+.deseas{
+    position: absolute;
+    top: 3vi;
+    left: 1.7vi;
+    font-size: 2.5vi;
+    font-family: 'Myriad pro, regular';
+}
+.cancelar{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vi;
+    font-family: 'Myriad pro, regular';
+    border: 1px solid black;
+    border-radius: 0.2vi;
+    text-align: center;
+    width: 6vi;
+    top: 10vi;
+    left: 7vi;
+}
 .enviar{
     position: absolute;
     text-decoration: none;
-    color: white;
-    font-size: 1.3vi;
+    color: black;
+    font-size: 1.5vi;
     font-family: 'Myriad pro, regular';
-    top: 45vi;
-    left: 27.5vi;
-    background-color:#FF7C32;
-    width: 5vi;
-    height: 2vi;
-    border-radius: 0.5vi;
+    border: 1px solid black;
+    border-radius: 0.2vi;
     text-align: center;
-    line-height: 2vi;
-}
-.indicador1{
-    position: absolute;
-    font-size: 2vi;
-    font-family: 'Myriad pro, regular';
-    left: 6vi;
-    top: 2vi;
-}
-.indicador2{
-    position: absolute;
-    width: 20vi;
-    height: 2vi;
-    font-size: 1vi;
-    font-family: 'Myriad pro, regular';
-    top: 4.2vi;
-    left: 5vi;
-    border-radius: 0.3vi;
-}
-.descripcion1{
-    position: absolute;
-    font-size: 2vi;
-    font-family: 'Myriad pro, regular';
-    left: 34vi;
-    top: 2vi;
-}
-.descripcion2{
-    position: absolute;
-    width: 20vi;
-    height: 2vi;
-    font-size: 1vi;
-    font-family: 'Myriad pro, regular';
-    top: 4.2vi;
-    left: 33vi;
-    border-radius: 0.3vi;
-}
-.categoria1{
-    position: absolute;
-    font-size: 2vi;
-    font-family: 'Myriad pro, regular';
-    left: 6vi;
-    top: 9vi;
-}
-.categoria2{
-    position: absolute;
-    width: 20vi;
-    height: 2vi;
-    font-size: 1vi;
-    font-family: 'Myriad pro, regular';
-    top: 11.5vi;
-    left: 5vi;
-    border-radius: 0.3vi;
-}
-.fechai1{
-    position: absolute;
-    font-size: 2vi;
-    font-family: 'Myriad pro, regular';
-    left: 34vi;
-    top: 9vi;
-}
-.fechai2{
-    position: absolute;
-    width: 20vi;
-    height: 2vi;
-    font-size: 1vi;
-    font-family: 'Myriad pro, regular';
-    top: 11.5vi;
-    left: 33vi;
-    border-radius: 0.3vi;
-}
-.fechaF{
-    position: absolute;
-    font-size: 2vi;
-    font-family: 'Myriad pro, regular';
-    left: 6vi;
-    top: 16vi;
-}
-.fechaF1{
-    position: absolute;
-    width: 20vi;
-    height: 2vi;
-    font-size: 1vi;
-    font-family: 'Myriad pro, regular';
-    top: 18.5vi;
-    left: 5vi;
-    border-radius: 0.3vi;
-}
-.formula1{
-    position: absolute;
-    font-size: 2vi;
-    font-family: 'Myriad pro, regular';
-    left: 34vi;
-    top: 16vi;
-}
-.formula2{
-    position: absolute;
-    width: 20vi;
-    height: 2vi;
-    font-size: 1vi;
-    font-family: 'Myriad pro, regular';
-    top: 18.5vi;
-    left: 33vi;
-    border-radius: 0.3vi;
-}
-.free0{
-    position: absolute;
-    font-size: 2vi;
-    font-family: 'Myriad pro, regular';
-    left: 6vi;
-    top: 22.8vi;
-}
-.free{
-    position: absolute;
-    width: 20vi;
-    height: 2vi;
-    font-size: 1vi;
-    font-family: 'Myriad pro, regular';
-    top: 25.2vi;
-    left: 5vi;
-    border-radius: 0.3vi;
-}
-.cumplimiento1{
-    position: absolute;
-    font-size: 2vi;
-    font-family: 'Myriad pro, regular';
-    left: 34vi;
-    top: 22.8vi;
-}
-.cumplimiento2{
-    position: absolute;
-    width: 20vi;
-    height: 2vi;
-    font-size: 1vi;
-    font-family: 'Myriad pro, regular';
-    top: 25.2vi;
-    left: 33vi;
-    border-radius: 0.3vi;
-}
-.area1{
-    position: absolute;
-    font-size: 2vi;
-    font-family: 'Myriad pro, regular';
-    left: 21vi;
-    top: 31vi;
-}
-.area2{
-    position: absolute;
-    width: 20vi;
-    height: 2vi;
-    font-size: 1vi;
-    font-family: 'Myriad pro, regular';
-    top: 33.4vi;
-    left: 20vi;
-    border-radius: 0.3vi;
-<<<<<<< HEAD:css/añadir.css
-=======
+    width: 6vi;
+    top: 10vi;
+    left: 17vi;
 }
 .indicadorme{
     display: none;
@@ -926,36 +789,44 @@ display: block;
 }
 .b{
     display: none;
-}   
-.medialogo{
-    display: none;
 }
 @media screen and (max-width: 600px) {
     .flex-conteiner{
         flex-direction: column;
         width: 10vi;
-        top: 100vi;
     }
     .Añadir{
         display: none;
     }
     .mas{
-        display: none;
+        width: 10vi;
+        margin-right: 5vi;
+        margin-top: 5vi;
     }
     .circul{
-        display: none;
+        margin-top: 5vi;
+        margin-right: 5vi;
+        width: 10vi;
     }
     .caneca{
-        display: none;
+        margin-top: 5vi;
+        margin-right: 5vi;
+        width: 10vi;
     }
     .logo{
-        display: none;
+        margin-top: 5vi;
+        margin-right: 5vi;
+        width: 10vi;
     }
     .report{
-        display: none;
+        margin-top: 6vi;
+        margin-right: 11vi;
+        width: 10vi;
     }
     .circle{
-        display: none;
+        margin-top: 5vi;
+        margin-right: 5vi;
+        width: 10vi;
     }
     .tuerca{
         width: 4vi;
@@ -1011,10 +882,13 @@ display: block;
     .indicadores{
         font-size: 8vi;
         left: 18vi;
-        top: 23vi;
     }
     .Aqui{
-        display: none;
+        font-size: 4.1vi;
+        top: 20vi;
+        left: 18vi;
+        width: 70vi;
+        text-align: center;
     }
     .flex-conteiner2{
         flex-direction: column;
@@ -1102,14 +976,16 @@ display: block;
         width: 60vi;
     }
     .linea1{
-        display: none;
+        top: 40vi;
+        left: 75vi;
     }
     .a{
-        width: 6vi;
-        height: 1vi;
+        width: 10vi;
+        height: 10vi;
     }
     .linea2{
-        display: none;
+        top: 122vi;
+        left: 75vi;
     }
     .segundo{
         font-size: 5vi;
@@ -1175,119 +1051,30 @@ display: block;
         left: 13.6vi;
     }
     #cuadroSobrepuesto1{
-        top: 8vi;
+        top: 50vi;
         left: 18vi;
     }
     #contenidoCuadro1{
         width: 73vi;
-        height: 155vi;
+        height: 73vi;
+        border-radius: 1vi;
     }
-    .indicador1{
-        font-size: 6vi;
+    .deseas{
+        font-size: 7vi;
+        left: 1vi;
+        top: 15vi;
+        width: 80vi;
     }
-    .indicador2{
-        width: 60vi;
+    .cancelar{
+        top: 40vi;
+        left: 25.5vi;
+        width: 22vi;
         height: 5vi;
-        top: 9vi;
-        font-size: 3vi;
-    }
-    .descripcion1{
-        font-size: 6vi;
-        top: 14vi;
-        left: 6vi;
-    }
-    .descripcion2{
-        width: 60vi;
-        height: 5vi;
-        top: 21.5vi;
-        left: 5vi;
-        font-size: 3vi;
-    }
-    .categoria1{
-        font-size: 6vi;
-        top: 28vi;
-    }
-    .categoria2{
-        width: 60vi;
-        height: 5vi;
-        top: 35vi;
-        left: 5vi;
-        font-size: 3vi;
-    }
-    .fechai1{
-        font-size: 6vi;
-        top: 43vi;
-        left: 6vi;
-    }
-    .fechai2{
-        width: 60vi;
-        height: 5vi;
-        top: 50vi;
-        left: 5vi;
-        font-size: 3vi;
-    }
-    .fechaF{
-        font-size: 6vi;
-        top: 58vi;
-        left: 6vi;
-    }
-    .fechaF1{
-        width: 60vi;
-        height: 5vi;
-        top: 65.5vi;
-        left: 5vi;
-        font-size: 3vi;
-    }
-    .formula1{
-        font-size: 6vi;
-        top: 74vi;
-        left: 6vi;
-    }
-    .formula2{
-        width: 60vi;
-        height: 5vi;
-        top: 81.5vi;
-        left: 5vi;
-        font-size: 3vi;
-    }
-    .free0{
-        font-size: 6vi;
-        top: 90vi;
-        left: 6vi;
-    }
-    .free{
-        width: 60vi;
-        height: 5vi;
-        top: 97.5vi;
-        left: 5vi;
-        font-size: 3vi;
-    }
-    .cumplimiento1{
-        font-size: 6vi;
-        top: 107vi;
-        left: 6vi;
-    }
-    .cumplimiento2{
-        width: 60vi;
-        height: 5vi;
-        top: 114.5vi;
-        left: 5vi;
-        font-size: 3vi;
-    }
-    .area1{
-        font-size: 6vi;
-        top: 124vi;
-        left: 6vi;
-    }
-    .area2{
-        width: 60vi;
-        height: 5vi;
-        top: 131.5vi;
-        left: 5vi;
-        font-size: 3vi;
+        font-size: 3.5vi;
+        line-height: 5vi;
     }
     .enviar{
-        top: 140vi;
+        top: 50vi;
         left: 25.5vi;
         width: 22vi;
         height: 5vi;
@@ -1312,19 +1099,9 @@ display: block;
         width: 20vi;
         height: 5vi;
         border-radius: 1vi;
+        line-height: 5vi;
         color: white;
         text-align: center;
         font-family: 'Myriad pro, regular';
     }
-<<<<<<< HEAD:css/añadir.css
->>>>>>> 372c190 (style :lipstick: Terminacion media query añadir):añadir.css
-=======
-    .medialogo{
-        position: absolute;
-        display: block;
-        width: 15vi;
-        top: 5vi;
-        left: 43vi;
-    }
->>>>>>> d92d05b (style: :sparkles: Actualización de media query):añadir.css
 }
