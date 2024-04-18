@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Myriad pro, regular';
-    src: url(./font/Myriad\ Pro\ Regular.ttf);
+    src: url(../storage/img/font/Myriad\ Pro\ Regular.ttf);
 }
 
 body{
     display: flex;
     justify-content: center;    
     align-items: center;
-    background-image: url(./imagenes/pexels-pixabay-159400.png);
+    background-image: url(../storage/img/pexels-pixabay-159400.png);
     background-repeat: no-repeat;
     background-color: black;
     background-size: cover;
@@ -141,11 +141,7 @@ body{
     }
 }
 
-<<<<<<< HEAD:css/style.css
-@media screen and (max-width: 1024px) {
-=======
 @media screen and (max-width: 600px) {
->>>>>>> 372c190 (style :lipstick: Terminacion media query añadir):style.css
     .kario{
         top: 38vh;
         left: 40vw;
